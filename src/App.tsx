@@ -45,8 +45,8 @@ const App = () => {
                         ? (
                             <Switch>
                                 <Route exact path="/" component={ShoppingList} />
-                                <Route exact path="/messenger" component={Messenger} />
-                                <Route exact path="/settings" component={Settings} />
+                                <Route path="/messenger" component={Messenger} />
+                                <Route path="/settings" component={Settings} />
                                 <Route path="/404" component={NotFoundPage} />
                                 <Route path="*" component={NotFoundPage} />
                             </Switch>
