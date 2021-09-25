@@ -44,7 +44,7 @@ const App = () => {
                         isLoggedIn
                         ? (
                             <Switch>
-                                <Route exact path="/" component={ShoppingList} />
+                                <Route path="/" component={ShoppingList} />
                                 <Route path="/messenger" component={Messenger} />
                                 <Route path="/settings" component={Settings} />
                                 <Route path="/404" component={NotFoundPage} />
